@@ -1,24 +1,53 @@
 aid: terra-bella-fka-skybox-imaging
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/terra-bella-fka-skybox-imaging.png
 name: Terra Bella (fka Skybox Imaging)
-description: 'Terra Bella (fka Skybox Imaging) is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: deep-tech. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Terra Bella, originally founded in 2009 as Skybox Imaging (Mountain View, California), was a
+  satellite imaging and geospatial analytics company that built and operated the SkySat constellation of
+  high-resolution Earth-observation satellites. Google acquired Skybox Imaging in 2014 for roughly $500
+  million and rebranded it Terra Bella. In 2017 Alphabet/Google sold Terra Bella and its SkySat satellites
+  to Planet Labs, folding the business into Planet''s Earth-observation operations. Terra Bella no longer
+  exists as an independent operating entity and publishes no independent developer portal, API, or SDK
+  surface; its capabilities live on inside Planet Labs. Surfaced as a portfolio company of
+  bessemer-venture-partners.'
 url: https://raw.githubusercontent.com/api-evangelist/terra-bella-fka-skybox-imaging/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bessemer-venture-partners
+x-status: acquired
+x-successor: planet-labs
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Deep Tech
+- Satellite Imaging
+- Earth Observation
+- Geospatial
+- Space
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
